@@ -1,0 +1,12 @@
+name: Hello world
+
+on:
+  - pull_request
+
+jobs:
+  hello_world_job:
+    name: Hello world
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action step
+        run: echo "Hello 🌏!"
